@@ -1,5 +1,5 @@
 defaultNamespace: app-899
-namespace: app-899
+#namespace: app-899
 
 helm: 
   repo: https://charts.jetstack.io
