@@ -9,6 +9,8 @@ helm:
 
 targetCustomizations:
   - name: dev2
+    helm:
+      chart: ./version-3/
     clusterSelector:
       matchLabels:
         env: dev
