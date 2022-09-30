@@ -15,8 +15,6 @@ targetCustomizations:
 
   - name: dev3
     helm:
-      repo: https://charts.jetstack.io
-      chart: cert-manager
       version: "1.9.1"
     clusterSelector:
       matchLabels:
