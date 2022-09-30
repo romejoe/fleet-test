@@ -1,0 +1,24 @@
+defaultNamespace: app-899-version-test
+#namespace: app-899
+
+helm: 
+  repo: https://romejoe.github.io/fleet-test/charts/
+  chart: version-test
+  version: "0.1.0"
+  releaseName: version-test
+
+targetCustomizations:
+  - name: dev2
+    clusterSelector:
+      matchLabels:
+        env: dev
+
+  - name: dev3
+    helm:
+      repo: https://romejoe.github.io/fleet-test/charts/
+      chart: version-test
+      version: "0.2.0"
+    clusterSelector:
+      matchLabels:
+        env: test
+  
