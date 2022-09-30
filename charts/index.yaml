@@ -3,22 +3,22 @@ entries:
   version-test:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-09-30T00:13:33.425072526-04:00"
+    created: "2022-09-30T00:14:14.25592626-04:00"
     description: A Helm chart for Kubernetes
     digest: 3fbdb767e1371f402046236ba85955a5201dd6e2be43f3dced92f4776521f1ff
     name: version-test
     type: application
     urls:
-    - https://romejoe.github.io/helm-chart/charts/version-test-0.2.0.tgz
+    - https://romejoe.github.io/fleet-test/charts/version-test-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-09-30T00:13:33.424703834-04:00"
+    created: "2022-09-30T00:14:14.255358032-04:00"
     description: A Helm chart for Kubernetes
     digest: 22797a3bbdb979d3ea41e33d62cb05669f7c34a7966958aaa5775fe5f3c78dba
     name: version-test
     type: application
     urls:
-    - https://romejoe.github.io/helm-chart/charts/version-test-0.1.0.tgz
+    - https://romejoe.github.io/fleet-test/charts/version-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-30T00:13:33.424137701-04:00"
+generated: "2022-09-30T00:14:14.254643626-04:00"
