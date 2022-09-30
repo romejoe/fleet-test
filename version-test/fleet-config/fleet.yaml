@@ -15,8 +15,6 @@ targetCustomizations:
 
   - name: dev3
     helm:
-      repo: https://romejoe.github.io/fleet-test/charts/
-      chart: version-test
       version: "0.2.0"
     clusterSelector:
       matchLabels:
